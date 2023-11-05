@@ -87,7 +87,7 @@ const Categories: FC = () => {
             </div>
 
             {visibleModal && (<CategoryModal type='post' setVisibleModal={setVisibleModal}
-            />
+                />
             )}
             {visibleModal && isEdit && (
                 <CategoryModal type='patch' id={categoryId} setVisibleModal={setVisibleModal}
